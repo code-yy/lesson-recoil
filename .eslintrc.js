@@ -26,6 +26,14 @@ module.exports = {
     "import/no-duplicates": "error",
     // @TypeScript-ESLint
     "@typescript-eslint/no-unused-vars": ["error", { varsIgnorePattern: "^_", argsIgnorePattern: "^_" }],
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "t@typescript-eslint/no-unsafe-assignment": "off",
+    "@typescript-eslint/no-unsafe-member-access": "off",
+    "@typescript-eslint/no-unsafe-assignment": "off",
+    "@typescript-eslint/no-unsafe-return": "off",
+
+    // TailwindCSS-ESLint
     "tailwindcss/classnames-order": "warn",
     "tailwindcss/no-custom-classname": "warn",
     "tailwindcss/no-contradicting-classname": "error",

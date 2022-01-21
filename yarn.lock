@@ -1387,18 +1387,6 @@ eslint-plugin-tailwindcss@^3.0.2:
     postcss "^8.4.4"
     tailwindcss "^3.0.7"
 
-eslint-plugin-unused-imports@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-unused-imports/-/eslint-plugin-unused-imports-2.0.0.tgz#d8db8c4d0cfa0637a8b51ce3fd7d1b6bc3f08520"
-  integrity sha512-3APeS/tQlTrFa167ThtP0Zm0vctjr4M44HMpeg1P4bK6wItarumq0Ma82xorMKdFsWpphQBlRPzw/pxiVELX1A==
-  dependencies:
-    eslint-rule-composer "^0.3.0"
-
-eslint-rule-composer@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/eslint-rule-composer/-/eslint-rule-composer-0.3.0.tgz#79320c927b0c5c0d3d3d2b76c8b4a488f25bbaf9"
-  integrity sha512-bt+Sh8CtDmn2OajxvNO+BX7Wn4CIWMpTRm3MaiKPCQcnnlm0CS2mhui6QaoeQugs+3Kj2ESKEEGJUdVafwhiCg==
-
 eslint-scope@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-5.1.1.tgz#e786e59a66cb92b3f6c1fb0d508aab174848f48c"
@@ -1756,6 +1744,11 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0:
   version "4.2.8"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.8.tgz#e412b8d33f5e006593cbd3cee6df9f2cebbe802a"
   integrity sha512-qkIilPUYcNhJpd33n0GBXTB1MMPp14TxEsEs0pTrsSVucApsYzW5V+Q8Qxhik6KU3evy+qkAAowTByymK0avdg==
+
+hamt_plus@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/hamt_plus/-/hamt_plus-1.0.2.tgz#e21c252968c7e33b20f6a1b094cd85787a265601"
+  integrity sha1-4hwlKWjH4zsg9qGwlM2FeHomVgE=
 
 has-bigints@^1.0.1:
   version "1.0.1"
@@ -2966,6 +2959,13 @@ readdirp@~3.6.0:
   integrity sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==
   dependencies:
     picomatch "^2.2.1"
+
+recoil@^0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/recoil/-/recoil-0.5.2.tgz#61fecce3b4dc91127a595586cf7369e2811ba024"
+  integrity sha512-Edibzpu3dbUMLy6QRg73WL8dvMl9Xqhp+kU+f2sJtXxsaXvAlxU/GcnDE8HXPkprXrhHF2e6SZozptNvjNF5fw==
+  dependencies:
+    hamt_plus "1.0.2"
 
 reduce-css-calc@^2.1.8:
   version "2.1.8"
