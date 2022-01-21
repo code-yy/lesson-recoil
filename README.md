@@ -5,3 +5,4 @@
 - Tailwind CSS
 - ESLint
 - Yarn
+- Recoil
