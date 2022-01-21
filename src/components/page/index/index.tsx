@@ -1,5 +1,17 @@
 import { VFC } from "react";
+import { useRecoilValue } from "recoil";
+
+import { filteredTodoListState } from "@/components/model/FilteredTodoListState";
+import { TodoItem } from "@/components/model/TodoItem";
 
 export const Index: VFC = () => {
-  return <div className="text-5xl">Index</div>;
+  const todoList = useRecoilValue(filteredTodoListState);
+
+  return (
+    <div>
+      {todoList.map((todoItem) => (
+        <TodoItem key={todoItem.id} item={todoItem} />
+      ))}
+    </div>
+  );
 };
